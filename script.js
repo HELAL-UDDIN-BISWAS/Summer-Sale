@@ -22,6 +22,7 @@ function accessories(id){
         button.removeAttribute('disabled')
         return
     }
+
 }
 document.getElementById('model-button').addEventListener('click', function(){
     let addStyle=document.querySelectorAll('.sections');
